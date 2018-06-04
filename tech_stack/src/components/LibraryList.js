@@ -12,7 +12,7 @@ class LibraryList extends Component {
             rowHasChanged: (r1, r2) => r1 !== r2
         });
 
-        this.dataSource = ds.cloneWithRows(this.props.dataToShow);
+        this.dataSource = ds.cloneWithRows(this.props.libraries);
     }
 
     renderRow(library) {
@@ -28,7 +28,7 @@ class LibraryList extends Component {
     );
   }
 }
-const mapStateToProps = state => ({ dataToShow: state.libraries });
+const mapStateToProps = state => ({ libraries: state.libraries });
 
 export default connect(mapStateToProps)(LibraryList);
 
