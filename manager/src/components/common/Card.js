@@ -23,7 +23,7 @@ const styles = {
         shadowRadius: 2,
         marginLeft: 5,
         marginRight: 5,
-        marginTop: 50
+        marginTop: 10
     }
 };
 
