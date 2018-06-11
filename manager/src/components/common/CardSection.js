@@ -19,8 +19,6 @@ const styles = {
         flexDirection: 'row',
         borderColor: '#ddd',
         position: 'relative'
-
-
     }
 };
 
